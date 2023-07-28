@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(128, 128, 128, 0.326);
+  display: grid;
+  place-items: center;
+}
+
+.popup .info {
+  background: #ffde4a;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.493);
+  padding: 20px 30px;
+  border-radius: 10px;
+  color: white;
+}
+
+.popup .info .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 5px 40px;
+}
+
+.login-modal{
+  position: fixed;
+  left: 0;
+  top: 80px;
+  width: 100%;
+  height: 90vh;
+  background: rgba(78, 78, 77, 0.678);
+  display: grid;
+  place-items: center;
+}
+.modal-register{
+  background: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.498);
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+}
+.modal-register h1 {
+ width: 100%;
+
+}
+.modal-register .list {
+  height: 100%;
+  align-self:  flex-start;
+  width: 70%;
+ 
+ }
+.modal-login{
+  background: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.498);
+  padding: 20px;
+  border-radius: 10px;
+  height: 300px;
+}
